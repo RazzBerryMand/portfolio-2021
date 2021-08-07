@@ -1,7 +1,18 @@
 <template>
-  <div class="hello">
-    <h1>hello</h1>
-  </div>
+  <main>
+    <div>
+      <h2>About</h2>
+    </div>
+    <div>
+      <h2>Technical</h2>
+    </div>
+    <div>
+      <h2>Experience</h2>
+    </div>
+    <div>
+      <h2>Diversity</h2>
+    </div>
+  </main>
 </template>
 
 <script>
