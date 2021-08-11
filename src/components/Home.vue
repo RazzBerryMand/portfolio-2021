@@ -1,15 +1,16 @@
 <template>
   <main>
     <div class="wrapper about">
+      <span class="emoji">👋🏻</span>
       <h2>About</h2>
       <p>
-        Front end JavaScript developer based in Manchester. I have a Fine Art BA
-        (Hons) from MMU but learnt to code at Northcoders full stack bootcamp in
-        2018. In my spare time I volunteer as a teaching assistant at Code Your
-        Future.
+        Front end developer based in Manchester. I have a Fine Art BA (Hons)
+        from MMU but learnt to code at Northcoders bootcamp in 2018. In my spare
+        time I volunteer as a teaching assistant at Code Your Future.
       </p>
     </div>
     <div class="wrapper technical">
+      <span class="emoji">🛠</span>
       <h2>Technical</h2>
       <ul>
         <li>JavaScript, HTML5, CSS3, Sass, GraphQL</li>
@@ -19,6 +20,7 @@
       </ul>
     </div>
     <div class="wrapper resume">
+      <span class="emoji">👩🏻‍💻</span>
       <h2>Resume</h2>
       <ul>
         <li>MAGO</li>
@@ -29,6 +31,7 @@
       </ul>
     </div>
     <div class="wrapper diversity">
+      <span class="emoji">🏳️‍🌈</span>
       <h2>Diversity</h2>
       <p>
         My pronouns are She/Her. I take inclusion in tech very seriously and
@@ -59,15 +62,21 @@ main {
   color: #ffffff;
 }
 
+@media only screen and (min-width: 992px) {
+  main {
+    margin: 64px;
+  }
+}
+
 .wrapper {
   width: 100%;
-  padding: 8px 16px;
+  padding: 16px;
   margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    width: 40%;
+    width: 43%;
   }
 }
 
@@ -91,6 +100,10 @@ main {
 
 .diversity {
   background-color: #3a86ff;
+}
+
+.emoji {
+  font-size: 64px;
 }
 
 li {

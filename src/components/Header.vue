@@ -2,10 +2,22 @@
   <nav>
     <h1>Mand Cashin</h1>
     <ul>
-      <li><a>Github</a></li>
-      <li><a>Codepen</a></li>
-      <li><a>Linkedin</a></li>
-      <li><a>Instagram</a></li>
+      <li>
+        <a href="https://github.com/RazzBerryMand/" target="_blank">Github</a>
+      </li>
+      <li>
+        <a href="https://codepen.io/razzberrymand" target="_blank">Codepen</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/mandcashin/" target="_blank"
+          >Linkedin</a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/razzberrymand/" target="_blank"
+          >Instagram</a
+        >
+      </li>
     </ul>
   </nav>
 </template>
@@ -32,6 +44,7 @@ nav {
 h1 {
   padding: 8px;
   margin: 0;
+  font-size: 32px;
 }
 
 ul {
@@ -39,7 +52,14 @@ ul {
   flex-direction: row;
 }
 
-li {
+a {
+  text-decoration: none;
   padding: 8px;
+  cursor: pointer;
+  color: #000000;
+}
+
+a:hover {
+  background-color: #ffbe0b;
 }
 </style>
