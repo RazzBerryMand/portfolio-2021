@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Copyright 2021</p>
+    <p>Copyright © 2021 Mand Cashin</p>
   </div>
 </template>
 
