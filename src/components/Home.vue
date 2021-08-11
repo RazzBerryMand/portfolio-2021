@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="wrapper">
+    <div class="wrapper about">
       <h2>About</h2>
       <p>
         Front end JavaScript developer based in Manchester. I have a Fine Art BA
@@ -9,7 +9,7 @@
         Future.
       </p>
     </div>
-    <div class="wrapper">
+    <div class="wrapper technical">
       <h2>Technical</h2>
       <ul>
         <li>JavaScript, HTML5, CSS3, Sass, GraphQL</li>
@@ -18,7 +18,7 @@
         <li>Magento, Shopify</li>
       </ul>
     </div>
-    <div class="wrapper">
+    <div class="wrapper resume">
       <h2>Resume</h2>
       <ul>
         <li>MAGO</li>
@@ -28,7 +28,7 @@
         <li>Code Computerlove</li>
       </ul>
     </div>
-    <div class="wrapper">
+    <div class="wrapper diversity">
       <h2>Diversity</h2>
       <p>
         My pronouns are She/Her. I take inclusion in tech very seriously and
@@ -56,6 +56,7 @@ main {
   justify-content: space-evenly;
   margin: 16px;
   flex: 1;
+  color: #ffffff;
 }
 
 .wrapper {
@@ -74,6 +75,22 @@ main {
   .wrapper {
     width: 20%;
   }
+}
+
+.about {
+  background-color: #fb5607;
+}
+
+.technical {
+  background-color: #ff006e;
+}
+
+.resume {
+  background-color: #8338ec;
+}
+
+.diversity {
+  background-color: #3a86ff;
 }
 
 li {
