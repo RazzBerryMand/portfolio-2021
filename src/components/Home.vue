@@ -3,10 +3,10 @@
     <div class="wrapper">
       <h2>About</h2>
       <p>
-        Front end JavaScript developer with Fine Art BA (Hons) from MMU. Learnt
-        to code at Northcoders full stack bootcamp in 2018. Volunteer teaching
-        assistant and mentor at Code Your Future. Avid follower of the Agile
-        Manifesto.
+        Front end JavaScript developer based in Manchester. I have a Fine Art BA
+        (Hons) from MMU but learnt to code at Northcoders full stack bootcamp in
+        2018. In my spare time I volunteer as a teaching assistant at Code Your
+        Future.
       </p>
     </div>
     <div class="wrapper">
@@ -19,7 +19,7 @@
       </ul>
     </div>
     <div class="wrapper">
-      <h2>Experience</h2>
+      <h2>Resume</h2>
       <ul>
         <li>MAGO</li>
         <li>Ampersand</li>
@@ -31,7 +31,7 @@
     <div class="wrapper">
       <h2>Diversity</h2>
       <p>
-        I take inclusion in tech very seriously. My pronouns are She/Her. I
+        My pronouns are She/Her. I take inclusion in tech very seriously and
         would love to speak at your meetup. My previous talks include
         "Microaggressions in the workplace" and "Breaking into the industry as a
         gender minority".
@@ -53,23 +53,30 @@ export default {
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-evenly;
+  margin: 16px;
+  flex: 1;
 }
 
 .wrapper {
   width: 100%;
+  padding: 8px 16px;
+  margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 600px) {
   .wrapper {
-    width: 45%;
+    width: 40%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .wrapper {
-    width: 24%;
+    width: 20%;
   }
+}
+
+li {
+  margin-bottom: 8px;
 }
 </style>

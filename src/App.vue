@@ -28,15 +28,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  text-align: center;
+  min-height: 100vh;
 }
 ul {
   list-style-type: none;
   padding-left: 0;
-}
-
-li {
-  margin-bottom: 8px;
 }
 </style>
