@@ -3,18 +3,34 @@
     <h1>Mand Cashin</h1>
     <ul>
       <li>
-        <a href="https://github.com/RazzBerryMand/" target="_blank">Github</a>
+        <a
+          href="https://github.com/RazzBerryMand/"
+          target="_blank"
+          rel="noopener"
+          >Github</a
+        >
       </li>
       <li>
-        <a href="https://codepen.io/razzberrymand" target="_blank">Codepen</a>
+        <a
+          href="https://codepen.io/razzberrymand"
+          target="_blank"
+          rel="noopener"
+          >Codepen</a
+        >
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/mandcashin/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/mandcashin/"
+          target="_blank"
+          rel="noopener"
           >Linkedin</a
         >
       </li>
       <li>
-        <a href="https://www.instagram.com/razzberrymand/" target="_blank"
+        <a
+          href="https://www.instagram.com/razzberrymand/"
+          target="_blank"
+          rel="noopener"
           >Instagram</a
         >
       </li>
